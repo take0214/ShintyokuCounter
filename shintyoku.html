@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="jp">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=¥, initial-scale=1.0">
+    <title>進捗管理</title>
+</head>
+<body>
+    <script src = shintyoku.js></script>
+    <h1>進捗管理</h1>
+
+    <label for="prob">課題名を入力してください: </label>
+    <input type="text" id="prob">
+    <br>
+    <label for="content">内容を入力してください: </label>
+    <input type="text" id="content">
+
+    <br>
+
+    <font size="7" id = "time">
+
+    </font>    
+    
+    <br>
+
+    <input type="button" id="start" value="開始">
+    <input type="button" id="stop" value="停止">
+    <input type="button" id="reset" value="リセット">
+    <input type="button" id="confirm" value="確定">
+
+    <table id="table">
+        <tr>
+            <th>日付</th>
+            <th>課題</th>
+            <th>作業内容</th>
+            <th>作業時間</th>
+        </tr>
+    </table>
+
+</body>
+</html>
