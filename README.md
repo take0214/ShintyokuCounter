@@ -4,4 +4,4 @@
 ```
 node server.js
 ```
-2.http://localhost:8080/にアクセスする。
+2.http://localhost:8080/ にアクセスする。
