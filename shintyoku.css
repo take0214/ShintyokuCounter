@@ -1,0 +1,58 @@
+#titleDiv {
+    font-size: 50px;
+    display: inline-block;
+    width: 400px;
+}
+
+#probDiv, #contentDiv{
+    font-size: 24px;
+    display: inline-block;
+    width: 300px;
+}
+
+#editTime{
+    display: inline-block;
+}
+
+#timeDiv {
+    font-size: 140px;
+}
+
+
+input {
+    width: 180px;
+    padding: 10px;
+}
+
+button{
+    width: 250px;
+    height: 40px;
+}
+
+table{
+    position:absolute;
+    bottom: 10px;
+    border-collapse: collapse;
+}
+
+thead,
+tbody {
+    display: block;
+}
+
+tbody {
+    overflow-y: scroll;
+    height: 350px;
+}
+
+td {
+    width: 251px;
+    font-size: 24px;
+    border: 1px solid black;
+}
+
+th {
+    width: 250px;
+    font-size: 24px;
+    border: 1.5px solid black;
+}

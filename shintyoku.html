@@ -1,42 +1,50 @@
 <!DOCTYPE html>
 <html lang="jp">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=¥, initial-scale=1.0">
-    <title>進捗管理</title>
+    <title>進捗計測アプリ</title>
+    <link rel="stylesheet" href="shintyoku.css" type="text/css">
 </head>
+
 <body>
-    <script src = shintyoku.js></script>
-    <h1>進捗管理</h1>
+    <script src="./shintyoku.js"></script>
 
-    <label for="prob">課題名を入力してください: </label>
-    <input type="text" id="prob">
-    <br>
-    <label for="content">内容を入力してください: </label>
-    <input type="text" id="content">
+    <div id="titleDiv">
+        進捗計測アプリ
+    </div>
 
-    <br>
+    <div id="probDiv">
+        <label for="prob">課題: </label>
+        <input type="text" id="prob" placeholder="（例）Java">
+    </div>
 
-    <font size="7" id = "time">
+    <div id="contentDiv">
+        <label for="content">内容: </label>
+        <input type="text" id="content" placeholder="（例）例題１">
+    </div>
 
-    </font>    
-    
-    <br>
+    <div id="editTime">
+        <input type="button" id="editTime" value="時間編集">
+    </div>
 
-    <input type="button" id="start" value="開始">
-    <input type="button" id="stop" value="停止">
-    <input type="button" id="reset" value="リセット">
-    <input type="button" id="confirm" value="確定">
+    <hr>
 
-    <table id="table">
-        <tr>
-            <th>日付</th>
-            <th>課題</th>
-            <th>作業内容</th>
-            <th>作業時間</th>
-        </tr>
-    </table>
+    <div id="timeDiv"></div>
+
+    <div id="buttonDiv">
+        <input type="button" id="start" value="開始">
+        <input type="button" id="stop" value="停止">
+        <input type="button" id="reset" value="リセット">
+        <input type="button" id="confirm" value="確定">
+    </div>
+
+
+    <table id="table"></table>
+
 
 </body>
+
 </html>
